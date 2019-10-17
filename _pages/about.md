@@ -2,7 +2,8 @@
 layout: about
 permalink: /
 title: <strong>Nikos</strong> Tsiknakis
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+# description: Affiliations. Address. Contacts. Moto. Etc.
+description: Small introduction of my self.
 
 profile:
   align: right
