@@ -107,11 +107,11 @@ scholar:
   locale: en
 
   sort_by: year
-  order: descending
+  order: ascending
 
-  group_by: year
+  group_by: type
   group_order: descending
-  type_order: [article, inproceedings]
+  type_order: [article, inproceedings, book]
 
   source: /_bibliography/
   bibliography: papers.bib
