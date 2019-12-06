@@ -102,13 +102,18 @@ plugins:
 # Jekyll-Scholar
 scholar:
 
-  last_name: Einstein
+  first_name: Nikos
+  last_name: Tsiknakis
 
-  style: apa
+  style: ieee
   locale: en
 
   sort_by: year
   order: descending
+  
+  group_by: year
+  group_order: descending
+  type_order: [article, inproceedings]
 
   source: /_bibliography/
   bibliography: papers.bib
