@@ -18,30 +18,31 @@
     {% for author in entry.author_array %}
     {% if forloop.length == 1 %}
     {% if author.last == site.scholar.last_name %}
-    <em>{{author.first}} {{author.last}}</em>
+    <em>{{author.first | slice: 0}}. {{author.last}}</em>
     {% else %}
-    {{author.first}} {{author.last}}
+    {{author.first | slice: 0}}. {{author.last}}
     {% endif %}
     {% else %}
     {% unless forloop.last %}
     {% if author.last == site.scholar.last_name %}
-    <em>{{author.first}} {{author.last}}</em>{% if forloop.rindex > 2 %},{% endif %}
+    <em>{{author.first | slice: 0}}. {{author.last}}</em>{% if forloop.rindex > 2 %},{% endif %}
     {% else %}
     {% if site.data.coauthors[author.last] %}
-    <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>
+    <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first | slice: 0}}. {{author.last}}</a>
     {% if forloop.rindex > 2 %},{% endif %}
     {% else %}
-    {{author.first}} {{author.last}}{% if forloop.rindex > 2 %},{% endif %}
+    {{author.first | slice: 0}}. {{author.last}}{% if forloop.rindex > 2 %},{% endif %}
     {% endif %}
     {% endif %}
     {% else %}
     {% if author.last == site.scholar.last_name %}
-    and <em>{{author.first}} {{author.last}}</em>
+    and <em>{{author.first | slice: 0}}. {{author.last}}</em>
     {% else %}
     {% if site.data.coauthors[author.last] %}
-    and <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>
+    and <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first | slice: 0}}.
+      {{author.last}}</a>
     {% else %}
-    and {{author.first}} {{author.last}}
+    and {{author.first | slice: 0}}. {{author.last}}
     {% endif %}
     {% endif %}
     {% endunless %}
@@ -54,9 +55,11 @@
     <em>{{entry.journal}}</em>
     {% elsif entry.type == "inproceedings" %}
     <em>in {{entry.booktitle}}</em>
+    {% elsif entry.type == "book" %}
+    <em>in {{entry.booktitle}}</em>
     {% endif %}
     {% if entry.year %}
-    {{entry.year}}
+    {{entry.year}}{% if entry.address %}, {{entry.address}}{% endif %}
     {% endif %}
   </span>
   {% endif %}
@@ -64,6 +67,9 @@
   <span class="links">
     {% if entry.abstract %}
     [<a class="abstract">Abs</a>]
+    {% endif %}
+    {% if entry.doi %}
+    [<a href="{{entry.doi}}" target="_blank">doi</a>]
     {% endif %}
     {% if entry.arxiv %}
     [<a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>]
