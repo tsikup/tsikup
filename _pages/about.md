@@ -21,7 +21,7 @@ news: true
 social: true
 ---
 
-I am a Research Software Engineer in the Computational BioMedicine Laboratory, at the Institute of Computer Science, Foundation of Research and Technology - Hellas.
+I am a Research Software Engineer in the [Computational BioMedicine Laboratory](https://www.ics.forth.gr/cbml), at the Institute of Computer Science, Foundation of Research and Technology - Hellas.
 
 My main areas of interest relate to Artificial Intelligence, Machine Learning, Big Data, Data Science, Image Processing, Computer Vision and Biomedical Engineering.
 

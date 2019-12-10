@@ -5,7 +5,7 @@ date: 2019-10-01 09:00:00-0000
 inline: false
 ---
 
-I am employed as a Research Software Engineer under the supervision of Associate Professor Kostas Marias in the Computational Biomedicine Lab of the Institute of Computer Science, Foundation of Research and Technology Hellas.
+I am employed as a Research Software Engineer under the supervision of Associate Professor Kostas Marias in the [Computational BioMedicine Laboratory](https://www.ics.forth.gr/cbml) of the Institute of Computer Science, Foundation of Research and Technology Hellas.
 
 I work in:
 
