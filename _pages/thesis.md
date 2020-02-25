@@ -21,5 +21,5 @@ In the context of the thesis I have specifically focused on the following:
     * One operating on the low-level features of the images. In this approach, the features were extracted using the SIFT and SURF algorithms. The transformation model for registering the images was estimated using these features and the RANSAC algorithm.
 3. Review and application of Graph Cut algorithms based on the Markov Random Fields theory to extract the disparity map.
 
-Download: <a class="page-link" href="https://cdn.jsdelivr.net/gh/tsikup/AwesomeCV@master/assets/pdf/tsik-thesis.pdf"
+Download: <a class="page-link" href="https://cdn.jsdelivr.net/gh/tsikup/tsik.me@master/assets/pdf/tsik-thesis.pdf"
           target="_blank">PDF</a> (English)
