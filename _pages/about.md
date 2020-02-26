@@ -28,5 +28,3 @@ My main areas of interest relate to Artificial Intelligence, Machine Learning, B
 Aside from academic work, I love developing side projects which usually have to do with Smart Home applications, my Homelab (Linux Desktop & Home Server and Networking).
 
 I also enjoy hiking and outdoors activities, playing basketball, tennis and walking around the city. I love travelling around the world and getting to know new cultures, people, cities and the nature.
-
-
