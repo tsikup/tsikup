@@ -12,9 +12,10 @@ layout: default
     {% if page.education %}
         <div class="education">
             {% for edu in page.education %}
-            <div class="fas fa-graduation-cap">
-                <p class="edu_entry">{{ edu.department }}</p>, <p class="edu_year">{{ edu.year }}</p>
-                <p class="edu_uni">{{ edu.university }}</p>
+            <div class="edu_entry">
+              <p class="fas fa-graduation-cap fa-lg"></p>
+              <p class="edu_dept">{{ edu.department }}</p>, <p class="edu_year">{{ edu.year }}</p>
+              <p class="edu_uni">{{ edu.university }}</p>
             </div>
             {% endfor %}
         </div>

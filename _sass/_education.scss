@@ -1,22 +1,49 @@
 .education .edu_entry{
-    // font-weight: bold;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    transition: all .2s ease-out;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 0.3em;
+}
+
+.education .edu_entry:hover{
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    background: #fff;
+    box-shadow: 0 3px 4px 2px rgba(0,0,0,.2);
+    transition: all .2s ease-out;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 0.3em;
+}
+
+.education .edu_dept{
+    font-weight: bold;
     opacity: 0.9;
-    font-size: 1.1em;
+    font-size: 1.15em;
     display: inline;
+    margin-left: 0.3em;
 }
 
 .education .edu_year{
     font-weight: normal;
     opacity: 1;
-    font-size: 1em;
+    font-size: 1.05em;
     display: inline-block;
 }
 
 .education .edu_uni{
     font-weight: normal;
     opacity: 1;
-    font-size: 1em;
+    font-size: 1.15em;
     display: block;
-        
+    margin-top: -1em;
+    margin-left: 2em;
 }
 
+.education .fa-graduation-cap {
+    color: #4f4b4b;
+}
