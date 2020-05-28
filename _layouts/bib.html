@@ -98,6 +98,10 @@
     {% endif %}
   </span>
 
+  {% if entry.doi %}
+    <span data-badge-popover="right" data-badge-type="2" data-doi="{{entry.doi}}" data-hide-no-mentions="true" class="altmetric-embed" style="margin-top: 0.2em;"></span>
+  {% endif %}
+
   <!-- Hidden abstract block -->
   {% if entry.abstract %}
   <span class="abstract hidden">

@@ -16,6 +16,7 @@ We developed an *Interpretable Deep Learning* model for COVID-19 screening. Its 
 If you find it interesting, please cite it:
 
 Tsiknakis, N., Trivizakis, E., Vassalou, E. E., Papadakis, G. Z., Spandidos, D. A., Tsatsakis, A., Sánchez‑García, J., López‑González, R., Papanikolaou, N., Karantanas, A. H., Marias, K."Interpretable artificial intelligence framework for COVID‑19 screening on chest X‑rays". Experimental and Therapeutic Medicine. https://doi.org/10.3892/etm.2020.8797
+
 <hr>
 
 <div class="img_row">
