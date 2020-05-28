@@ -1,9 +1,11 @@
 ---
 layout: post
-title: Interpretable artificial intelligence framework for COVID‑19 screening on chest X‑rays
+title: COVID-19 Deep Learning Paper
 date: 2020-05-27 15:30:00-0000
 inline: false
 ---
+
+## Interpretable artificial intelligence framework for COVID‑19 screening on chest X‑rays
 
 I am pleased to announce that our newest research article on COVID-19, **Interpretable artificial intelligence framework for COVID‑19 screening on chest X‑rays**, has been published on the 27th of May 2020.
 
