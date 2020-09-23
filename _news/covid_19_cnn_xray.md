@@ -1,6 +1,6 @@
 ---
 layout: post
-title: COVID-19 Deep Learning Paper
+title: COVID-19 XRay Deep Learning Paper
 date: 2020-05-27 15:30:00-0000
 inline: false
 ---
