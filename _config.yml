@@ -26,18 +26,18 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: tsikup
 twitter_username: NTsiknakis
 linkedin_username: tsiknakisn
-scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
+scholar_userid: 4709966862707458427
+orcid_id: 0000-0002-7581-467X
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
-research_gate_profile: # your profile on ResearchGate
+research_gate_profile: Nikos_Tsiknakis
 blogger_url: # your blogger URL
 
 contact_note: >
   Please prefer the email for contacting me.
 
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
+google_analytics: #UA-XXXXXXXXX # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
