@@ -3,26 +3,36 @@ layout: default
 ---
 <div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title_1 }}</h1>
-    <h5 class="post-description">{{ page.description_1 }}</h5>
-  </header>
+  {% for p in page.titles %}
+    <header class="post-header">
+      <h1 class="post-title">{{ p.title }}</h1>
+      <h5 class="post-description">{{ p.description }}</h5>
+    </header>
 
-  <article class="post-content {{page.title}} clearfix">
-    {% if page.education %}
-        <div class="education">
-            {% for edu in page.education %}
-            <div class="edu_entry">
-              <p class="fas fa-graduation-cap fa-lg"></p>
-              <p class="edu_dept">{{ edu.department }}</p>, <p class="edu_year">{{ edu.year }}</p>
-              <p class="edu_uni">{{ edu.university }}</p>
-            </div>
+    <article class="post-content {{page.title}} clearfix">
+        <div class="experience">
+            {% for entry in p.entries %}
+              <div class="entry">
+                {% if p.title == "experience" %}
+                  <p class="fas fa-desktop fa-lg"></p>
+                {% elsif p.title == "education" %}
+                  <p class="fas fa-graduation-cap fa-lg"></p>
+                {% endif %}
+                <p class="dept">{{ entry.title }}</p>, <p class="place">{{entry.place}}<a href="{{entry.place_url}}" target="_blank"> <i class="fas fa-external-link-alt fa-xs"></i></a></p>
+                {% if p.title == "experience" %}
+                  <p class="details">{{entry.start}} - {{entry.finish}}</p>
+                  <p class="details_2">Supervisor: <em>{{ entry.supervisor }}</em></p>
+                {% elsif p.title == "education" %}
+                  <p class="details">Graduated in {{ entry.year }} with a grade of {{ entry.grade }}.</p>
+                  <p class="details_2">Thesis: <em>{{ entry.thesis }}</em>, <a href="{{entry.thesis_url}}">read more</a></p>
+                {% endif %}
+              </div>
             {% endfor %}
         </div>
-    {% endif %}
-  </article>
+    </article>
 
-  <hr>
+    <hr>
+  {% endfor %}
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title_2 }}</h1>
