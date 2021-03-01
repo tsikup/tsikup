@@ -1,0 +1,60 @@
+.experience .entry {
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    transition: all .2s ease-out;
+    padding-left: 1.5em;
+    padding-top: 1.1em;
+    padding-bottom: 0em;
+}
+
+.experience .entry:hover {
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    background: #fff;
+    box-shadow: 0 3px 4px 2px rgba(0, 0, 0, .2);
+    transition: all .2s ease-out;
+    padding-left: 1.5em;
+    padding-top: 1.1em;
+    padding-bottom: 0em;
+}
+
+.experience .dept {
+    font-weight: bold;
+    opacity: 0.9;
+    font-size: 1.15em;
+    display: inline;
+    margin-left: 0.3em;
+}
+
+.experience .details {
+    font-weight: normal;
+    opacity: 1;
+    font-size: 1.05em;
+    display: block;
+    margin-left: 2.2em;
+}
+
+.experience .place {
+    font-weight: normal;
+    opacity: 1;
+    font-size: 1em;
+    display: inline-block;
+}
+
+.experience .details_2 {
+    font-weight: normal;
+    opacity: 1;
+    font-size: 1.05em;
+    display: inline-block;
+    margin-left: 2.2em;
+}
+
+.experience .fa-graduation-cap {
+    color: #4f4b4b;
+}
+
+.experience .fa-graduation-cap {
+    color: #4f4b4b;
+}

@@ -3,6 +3,9 @@
         box-shadow: 0 0 5px $grey-color;
         width: 100%;
     }
+    margin-left: 1em;
+    padding-left: 1em;
+    border-left: 1px solid $grey-color-light;
 }
 
 .address {
@@ -60,4 +63,9 @@
     border-top: 1px solid $grey-color-light;
     margin-top: 50px;
     padding-top: 20px;
+}
+
+.about_content{
+    text-align: justify;
+    text-justify: inter-word;
 }
