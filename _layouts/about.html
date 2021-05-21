@@ -31,14 +31,17 @@ layout: default
     </div>
 
     {% if page.news %}
+      <hr>
       {% include news.html %}
     {% endif %}
 
     {% if page.selected_papers %}
+      <hr>
       {% include selected_papers.html %}
     {% endif %}
 
     {% if page.social %}
+    <hr>
     <div class="social">
       <div class="contact-icons">
         {% include social.html %}

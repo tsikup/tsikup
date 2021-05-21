@@ -184,12 +184,12 @@ a, table.table a {
     font-size: 4rem;
     a {
       i::before {
-        color: var(--global-text-color);
+        color: var(--global-social-color);
         -webkit-transition: all 0.2s ease-in-out;
       }
       &:hover {
         i::before {
-          color: var(--global-theme-color);
+          color: var(--global-social-hover-color);
         }
       }
     }
