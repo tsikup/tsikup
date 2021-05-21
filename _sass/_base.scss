@@ -487,20 +487,21 @@ pre {
   }
 }
 
-body {
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-}
+// body {
+//   box-sizing: border-box;
+//   -moz-box-sizing: border-box;
+//   -webkit-box-sizing: border-box;
+// }
 
-.wrapper {
-  max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
-  max-width: calc(800px - (#{$horizontal-spacing-unit} * 2));
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: $horizontal-spacing-unit;
-  padding-left: $horizontal-spacing-unit;
-  @extend .clearfix;
+// .wrapper {
+//   max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
+//   max-width: calc(800px - (#{$horizontal-spacing-unit} * 2));
+//   margin-right: auto;
+//   margin-left: auto;
+//   padding-right: $horizontal-spacing-unit;
+//   padding-left: $horizontal-spacing-unit;
+//   @extend .clearfix;
+// }
   
 code {
   color: var(--global-theme-color);
