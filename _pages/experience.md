@@ -2,6 +2,7 @@
 layout: experience
 permalink: /experience/
 title: experience
+nav: true
 titles:
   - education:
     title: education
