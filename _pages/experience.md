@@ -1,28 +1,34 @@
 ---
-layout: experience
+layout: page
 permalink: /experience/
 title: experience
-titles:
-  - education:
-    title: education
-    description: Details about my education.
-    entries:
-      - place: University of Patras
-        place_url: http://www.ece.upatras.gr/index.php/el/
-        title: MEng in Electrical and Computer Engineering
-        year: 2019
-        thesis: Stereo Vision of Dual View Meteosat Images
-        thesis_url: /theses
-        grade: 8.3/10
-  - experience:
-    title: experience
-    description: Details about my working experience.
-    entries:
-      - title: Software Engineer
-        place: CBML ICS FORTH
-        place_url: https://www.ics.forth.gr/cbml/
-        start: Oct 2019
-        finish: Present
-        supervisor: Prof. Kostas Marias
+description: Details about my work experience
+nav: true
+---
+
+
+<div class="row">
+  <div class="exp_position col-sm-8">
+      Research Software Engineer
+  </div>
+
+  <div class="exp_duration col-sm-4">
+      Oct. 2019 - Present
+  </div>
+</div>
+
+<div class="row">
+<div class="exp_employer col">
+      <a href="https://www.ics.forth.gr/cbml/">CBML ICS FORTH</a> 
+</div>
+</div>
+
+
+<div class="row">
+<div class="exp_content col">
+      I joined CBML on October 2019 after I graduated from the University of Patras. I have worked on several EU funded projects, such as <a href="https://www.see-far.eu/">SeeFar</a> and <a href="https://insilc.eu/">InSilc</a>. I have worked on medical image registration on IVUS and OCT intravascular images and deep learning analysis of retina fundus images. In addition, I have worked on chest X-Ray images for COVID-19 detection using deep learning. Our paper “Interpretable artificial intelligence framework for COVID‑19 screening on chest X‑rays” received the gold award at the Healthcare Business Awards 2020. My interests relate to medical image analysis, deep learning, statistics and biomedical engineering in general.
+</div>
+</div>
+
 
 ---

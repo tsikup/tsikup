@@ -1,7 +1,7 @@
 ---
 layout: about
-permalink: /
 title: about
+permalink: /
 # description: Affiliations. Address. Contacts. Moto. Etc.
 description: Small introduction of my self.
 
@@ -17,8 +17,9 @@ profile:
   #   <p>N. Plastira 100 Vassilika Vouton</p>
   #   <p>GR-70013 Heraklion, Crete, Greece</p>
 
-news: true
-social: true
+news: true  # includes a list of news items
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true  # includes social icons at the bottom of the page
 ---
 
 I am a Research Software Engineer in the [Computational BioMedicine Laboratory](https://www.ics.forth.gr/cbml), at the Institute of Computer Science, Foundation of Research and Technology - Hellas.
