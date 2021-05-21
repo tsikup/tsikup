@@ -1,7 +1,7 @@
 ---
 layout: about
 permalink: /
-title: <strong>Nikos</strong> Tsiknakis
+title: about
 # description: Affiliations. Address. Contacts. Moto. Etc.
 description: Small introduction of my self.
 
