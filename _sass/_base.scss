@@ -190,7 +190,7 @@ a, table.table a {
 }
 
 .news-title {
-  font-weight: bold;
+  font-weight: 400;
 }
 
 // Social (bottom)
@@ -535,4 +535,27 @@ html.transition *:before,
 html.transition *:after {
   transition: all 750ms !important;
   transition-delay: 0 !important;
+}
+
+
+// Experience page
+.exp_duration {
+  text-align: right;
+  color: var(--global-text-color-light);
+}
+
+.exp_position {
+  font-weight: 400;
+  color: var(--global-text-color);
+  font-size: large;
+}
+
+.exp_employer {
+  font-weight: 400;
+}
+
+.exp_content {
+  margin-top: 1em;
+  text-align: justify;
+  font-size: 11pt;
 }

@@ -1,12 +1,19 @@
 ---
 layout: page
-permalink: /theses
-title: theses
-description: Collection of my Dissertations/Theses
+permalink: /education
+title: education
+description: Details regarding my education
 nav: true
 ---
 
-### ECE University of Patras Thesis
+#### MEng. Electrical and Computer Engineering
+##### University of Patras
+
+---
+
+I studied at Electrical and Computer Engineering at the University of Patras from 2014 until 2019 (5-year course) and I focused my studies on software engineering and image processing. I graduated third in my class, with a grade of 8.3/10.
+
+---
 
 My thesis title was '**Stereo Vision of Dual View Meteosat Images**' and it was conducted in collaboration with the Vrije Universiteit Brussel [VUB](https://www.vub.be/en/home) and the Royal Meteorological Institute of Brussels [KMI](https://www.meteo.be/en).
 
