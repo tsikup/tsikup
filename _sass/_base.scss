@@ -42,6 +42,14 @@ a, table.table a {
 
 // Profile
 
+.profile-img {
+  margin-bottom: 1em;
+}
+
+.profile-desc {
+  text-align: justify;
+}
+
 .profile {
   margin-left: 1rem;
   width: 100%;
@@ -77,6 +85,11 @@ a, table.table a {
       text-decoration: none;
     }
   }
+}
+
+.post-title {
+  // font-family: Helvetica, sans-serif;
+  color: var(--global-text-color);
 }
 
 
@@ -174,6 +187,10 @@ a, table.table a {
 
 .news table th {
   color: var(--global-text-color);
+}
+
+.news-title {
+  font-weight: bold;
 }
 
 // Social (bottom)

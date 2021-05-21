@@ -3,6 +3,7 @@ layout: page
 permalink: /theses
 title: theses
 description: Collection of my Dissertations/Theses
+nav: true
 ---
 
 ### ECE University of Patras Thesis

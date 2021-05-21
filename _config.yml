@@ -40,7 +40,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 github_username: tsikup
-gitlab_username: tsikup
+gitlab_username: #tsikup
 twitter_username: NTsiknakis
 linkedin_username: tsiknakisn
 scholar_userid: 4709966862707458427
