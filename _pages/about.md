@@ -22,10 +22,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Research Software Engineer in the [Computational BioMedicine Laboratory](https://www.ics.forth.gr/cbml), at the Institute of Computer Science, Foundation of Research and Technology - Hellas.
+I am a Research Software Engineer at the [Computational BioMedicine Laboratory](https://www.ics.forth.gr/cbml) of the Institute of Computer Science, Foundation of Research and Technology - Hellas.
 
 My main areas of interest relate to Artificial Intelligence, Machine Learning, Big Data, Data Science, Image Processing, Computer Vision and Biomedical Engineering.
 
-Aside from academic work, I love developing side projects which usually have to do with Smart Home applications, my Homelab (Linux Desktop & Home Server and Networking).
+Aside from academic work, I love developing side projects which usually have to do with smart home applications and my homelab (Linux Desktop & Home Server and Networking).
 
 I also enjoy hiking and outdoors activities, playing basketball, tennis and walking around the city. I love travelling around the world and getting to know new cultures, people, cities and the nature.
