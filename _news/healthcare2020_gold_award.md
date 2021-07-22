@@ -11,7 +11,7 @@ inline: false
 
 Today we received the Gold Award at the Healthcare Business Awards 2020, for our research paper “[Interpretable artificial intelligence framework for COVID‑19 screening on chest X‑rays](https://www.spandidos-publications.com/10.3892/etm.2020.8797)”. This award is a confirmation of the quality of the effort made by the Computational BioMedicine Laboratory ([CBML](https://www.ics.forth.gr/cbml/)) of the Institute of Computer Science (ICS) of FORTH, to lead the research in computational biomedicine in Greece, but it also encourages me to continue down this new but exciting path of research. I want to thank Prof [Marias](https://www.ics.forth.gr/cbml/person/Marias/Kostas) for his supervision and everyone else involved in the effort. The best is yet to come!
 
-[Download Paper](/assets/pdf/Interpretable_artificial_intelligence_framework_for_COVID‑19_screening_on_chest_X‑rays.pdf)
+[Download Paper](/assets/pdf/Interpretable_artificial_intelligence_framework_for_COVID_19_screening_on_chest_X_rays.pdf)
 
 <hr>
 
