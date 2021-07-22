@@ -7,6 +7,8 @@ years: [2021, 2020, 2019]
 nav: true
 ---
 
+I have a total of {% bibliography_count -f papers --query @* %} publications, of which {% bibliography_count -f papers --query @article %} are journal articles and {% bibliography_count -f papers --query @inproceedings %} are conference papers.
+
 <div class="publications">
 
 {% for y in page.years %}
