@@ -58,7 +58,7 @@ contact_note: >
   Please prefer the email for contacting me.
 
 google_analytics: #UA-XXXXXXXXX # out your google-analytics code
-panelbear_analytics: JiJ6lkX44Fy # panelbear analytics site ID
+panelbear_analytics: #JiJ6lkX44Fy # panelbear analytics site ID
 
 # -----------------------------------------------------------------------------
 # Blog
