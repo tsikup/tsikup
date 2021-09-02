@@ -30,6 +30,12 @@ max_width: 800px
 # TODO: add layout settings (single page vs. multi-page)
 
 # -----------------------------------------------------------------------------
+# SASS
+# -----------------------------------------------------------------------------
+sass:
+  style: compressed # possible values: nested expanded compact compressed
+
+# -----------------------------------------------------------------------------
 # Open Graph
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
@@ -116,6 +122,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - node_modules
 keep_files:
   - CNAME
   - .nojekyll
