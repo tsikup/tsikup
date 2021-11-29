@@ -24,8 +24,6 @@ social: true  # includes social icons at the bottom of the page
 
 I am a Research Software Engineer at the [Computational BioMedicine Laboratory](https://www.ics.forth.gr/cbml) of the Institute of Computer Science, Foundation of Research and Technology - Hellas.
 
-My main areas of interest relate to Artificial Intelligence, Machine Learning, Big Data, Data Science, Image Processing, Computer Vision and Biomedical Engineering.
+My main areas of interest relate to Artificial Intelligence, Machine Learning and Image Processing in Medicine and especially Digital Pathology. You can find all my published articles in my [scholar](https://scholar.google.gr/citations?user=vWYykXgAAAAJ&hl=en) and in [publications](/articles) page.
 
-Aside from academic work, I love developing side projects which usually have to do with smart home applications and my homelab (Linux Desktop & Home Server and Networking).
-
-I also enjoy hiking and outdoors activities, playing basketball, tennis and walking around the city. I love travelling around the world and getting to know new cultures, people, cities and the nature.
+Aside from academic work, I develop smart home applications and linux homelab projects. I also enjoy hiking and outdoors activities, playing basketball, tennis and travelling around the world.
