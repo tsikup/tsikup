@@ -9,4 +9,4 @@ On August 1st I received my Diploma from the Department of Electrical and Comput
 
 I graduated 3rd in my class, with an overall classification of **8.3/10.0** . During my 5-years (300 ECTS) studies, I specialized in Electronics and Computer Science with a focus on Image Processing, Software Engineering and Machine Learning. I also took some courses about Control Theory.
 
-My thesis title was '**Stereo Vision of Dual View Meteosat Images**'. You can find it [here](/theses).
+My thesis title was '**Stereo Vision of Dual View Meteosat Images**'. You can find it [here (PDF)](/assets/pdf/tsik-thesis.pdf).
