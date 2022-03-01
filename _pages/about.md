@@ -12,10 +12,15 @@ profile:
     <p>Software Engineer @</p>
     <p>Computational BioMedicine Laboratory,</p>
     <p>ICS FORTH</p>
-  # address: >
-  #   <p>Office 208</p>
-  #   <p>N. Plastira 100 Vassilika Vouton</p>
-  #   <p>GR-70013 Heraklion, Crete, Greece</p>
+  address: >
+    <p><a href="mailto:tsiknakisn@gmail.com">tsiknakisn@gmail.com</a></p>
+    <p><a href="mailto:tsiknakisn@ics.forth.gr">tsiknakisn@ics.forth.gr</a></p>
+    <p>N. Plastira 100 Vassilika Vouton, FORTH</p>
+    <p>Heraklion, Crete, Greece</p>
+
+    <p><a href="mailto:nikolaos.tsiknakis@ki.se">nikolaos.tsiknakis@ki.se</a></p>
+    <p>Bioclinicum, Karolinska Institutet</p>
+    <p>Stockholm, Sweden</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
