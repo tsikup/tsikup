@@ -6,8 +6,17 @@ description: Details regarding my education
 nav: true
 ---
 
-#### MEng. Electrical and Computer Engineering
+#### 1. PhD Candidate
+##### Karolinska Institutet
+###### 2022 - 2026 (expected)
+---
+
+I am currently a PhD candidate at the Oncology-Pathology department of Karolinska Institutet, studying artificial intelligence in computational pathology for improving breast cancer prognostication and therapy prediction, under the supervision of [Associate Prof. Theodoros Foukakis](https://staff.ki.se/people/theodoros-foukakis).
+
+---
+#### 2. MEng. Electrical and Computer Engineering
 ##### University of Patras
+###### 2014 - 2019
 
 ---
 
