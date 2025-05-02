@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://tsik.me/sitemap.xml
+Sitemap: https://tsik.me//sitemap.xml
