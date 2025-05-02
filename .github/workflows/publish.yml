@@ -21,9 +21,10 @@ jobs:
           ruby-version: '3.1'  # match your local version
           bundler-cache: true
 
-      - name: Ensure x86_64 compatibility
+      - name: Clean bundle and reinstall
         run: |
-          bundle lock --add-platform x86_64-linux
+          bundle clean --force
+          bundle lock --remove-platform aarch64-linux
           bundle install
 
       - name: Build Jekyll site
