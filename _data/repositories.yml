@@ -1,14 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - tsikup
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - tsikup/ece-upatras-thesis-template
+  - tsikup/ki-halftime-latex-template
+  - tsikup/pathology-whole-slide-data
+  - tsikup/pytorch_models
+  - tsikup/wsi_data
+  - tsikup/my_utils
