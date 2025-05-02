@@ -88,17 +88,3 @@ jobs:
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js
-      # - name: Deploy 🚀
-      #   if: github.event_name != 'pull_request'
-      #   uses: JamesIves/github-pages-deploy-action@v4
-      #   with:
-      #     folder: _site
-
-      - name: Publish to Cloudflare Pages
-        uses: cloudflare/pages-action@1
-        with:
-          apiToken: ${{ secrets.CF_PAGES_API_TOKEN }}
-          accountId: ${{ secrets.CF_ACCOUNT_ID }}
-          projectName: ${{ secrets.CF_PROJECT_NAME }}
-          directory: _site
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
