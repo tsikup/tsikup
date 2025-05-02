@@ -1,0 +1,41 @@
+name: Jekyll Build for Cloudflare Pages
+
+on:
+  push:
+    branches: [ tsik.me ]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    name: Publish to Cloudflare Pages
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'  # match your local version
+          bundler-cache: true
+
+      - name: Ensure x86_64 compatibility
+        run: |
+          bundle lock --add-platform x86_64-linux
+          bundle install
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@1
+        with:
+          apiToken: ${{ secrets.CF_PAGES_API_TOKEN }}
+          accountId: ${{ secrets.CF_ACCOUNT_ID }}
+          projectName: ${{ secrets.CF_PROJECT_NAME }}
+          directory: _site
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
