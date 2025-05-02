@@ -11,6 +11,8 @@ nav_order: 2
 
 <!-- Bibsearch Feature -->
 
+I have a total of {% bibliography_count -f papers --query @* %} publications, of which {% bibliography_count -f papers --query @article %} are journal articles, {% bibliography_count -f papers --query @inproceedings %} are conference papers, {% bibliography_count -f papers --query @abstract %} are conference abstracts and {% bibliography_count -f papers --query @incollection %} are book chapters.
+
 {% include bib_search.liquid %}
 
 <div class="publications">

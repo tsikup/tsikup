@@ -1,115 +1,485 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{Span1912:Renyi,
+  abbr        = {Conference},
+  author      = {Constantinos Spanakis and Emmanuel Mathioudakis and Nikos Kampanis and
+Nikos Tsiknakis and Kostas Marias},
+  title       = {Renyi divergence and non-deterministic subsampling in Rigid Image
+Registration},
+  booktitle   = {IEEE International Conference on Imaging Systems and Techniques (IST)},
+  address     = {Abu Dhabi, United Arab Emirates},
+  days        = 7,
+  month       = dec,
+  year        = 2019,
+  doi         = {https://doi.org/10.1109/IST48021.2019.9010237},
+  simple_doi  = {10.1109/IST48021.2019.9010237},
+  keywords    = {Renyi divergence; Renyi Entropy; Rigid Image Registration; Subsampling;
+Mutual Information},
+  abstract    = {The successful application and reported robustness of Mutual Information
+both in rigid and nonrigid image registration over the last decades gave
+rise to an ongoing research on other information based similarity metrics
+emanating from Renyi Divergence. To the best of our knowledge however, this
+is the first paper studying the effects of Renyi parameter in combination
+with a subsampling factor in image registration accuracy. To this end, a
+series of experiments are presented with respect to the effect of Renyi's
+parameter and the subsampling factor in registration accuracy. Our results
+show that the increase of the Renyi parameter and the percentage of the
+pixels used leads, on average, to the reduction of the registration error.},
+  selected    = {false},
+  bibtex_show = {true}
 }
 
-@book{einstein1956investigations,
+@article{tsiknakis2020covid,
+  abbr        = {Journal},
+  author      = {Nikos Tsiknakis and Eleftherios Trivizakis and Evangelia E. Vassalou and Georgios Z. Papadakis and Demetrios A. Spandidos and Aristidis Tsatsakis and Jose Sánchez‑García and Rafael López‑González and Nikolaos Papanikolaou and Apostolos H. Karantanas and Kostas Marias },
+  title       = {Interpretable artificial intelligence framework for COVID‑19 screening on chest X‑rays},
+  journal     = {Experimental and Therapeutic Medicine},
+  publisher   = {Spandidos Publications},
+  days        = 27,
+  month       = may,
+  year        = 2020,
+  doi         = {https://doi.org/10.3892/etm.2020.8797},
+  simple_doi  = {10.3892/etm.2020.8797},
+  code        = {https://github.com/tsikup/covid19-xray-cnn},
+  keywords    = {COVID‐19, chest X‐rays, interpretable artificial intelligence, transfer learning},
+  abstract    = {COVID-19 has led to an unprecedented healthcare crisis with millions of infected people across the globe often pushing infrastructures, healthcare workers and entire economies beyond their limits. The scarcity of testing kits, even in developed countries, has led to extensive research efforts towards alternative solutions with high sensitivity. Chest radiological imaging paired with artificial intelligence (AI) can offer significant advantages in diagnosis of novel coronavirus infected patients. To this end, transfer learning techniques are used for overcoming the limitations emanating from the lack of relevant big datasets, enabling specialized models to converge on limited data, as in the case of X‑rays of COVID‑19 patients. In this study, we present an interpretable AI framework assessed by expert radiologists on the basis on how well the attention maps focus on the diagnostically‑relevant image regions. The proposed transfer learning methodology achieves an overall area under the curve of 1 for a binary classification problem across a 5‑fold training/testing dataset.},
+  selected    = {false},
+  bibtex_show = {true}
+}
+
+@article{trivizakis2020advancing,
+  abbr        = {Journal},
+  title       = {Advancing COVID-19 differentiation with a robust preprocessing and integration of multi-institutional open-repository computer tomography datasets for deep learning analysis},
+  author      = {Trivizakis, Eleftherios and Tsiknakis, Nikos and Vassalou, Evangelia E and Papadakis, Georgios Z and Spandidos, Demetrios A and Sarigiannis, Dimosthenis and Tsatsakis, Aristidis and Papanikolaou, Nikolaos and Karantanas, Apostolos H and Marias, Kostas},
+  journal     = {Experimental and Therapeutic Medicine},
+  publisher   = {Spandidos Publications},
+  volume      = {20},
+  number      = {5},
+  year        = {2020},
+  days        = 11,
+  month       = sep,
+  code        = {https://github.com/trivizakis/ct-covid-analysis},
+  doi         = {https://doi.org/10.3892/etm.2020.9210},
+  simple_doi  = {10.3892/etm.2020.9210},
+  abstract    = {The coronavirus pandemic and its unprecedented consequences globally has spurred the interest of the artificial intelligence research community. A plethora of published studies have investigated the role of imaging such as chest X‑rays and computer tomography in coronavirus disease 2019 (COVID‑19) automated diagnosis. Οpen repositories of medical imaging data can play a significant role by promoting cooperation among institutes in a world‑wide scale. However, they may induce limitations related to variable data quality and intrinsic differences due to the wide variety of scanner vendors and imaging parameters. In this study, a state‑of‑the‑art custom U‑Net model is presented with a dice similarity coefficient performance of 99.6% along with a transfer learning VGG‑19 based model for COVID‑19 versus pneumonia differentiation exhibiting an area under curve of 96.1%. The above was significantly improved over the baseline model trained with no segmentation in selected tomographic slices of the same dataset. The presented study highlights the importance of a robust preprocessing protocol for image analysis within a heterogeneous imaging dataset and assesses the potential diagnostic value of the presented COVID‑19 model by comparing its performance to the state of the art.},
+  selected    = {false},
+  bibtex_show = {true}
+}
+
+@article{deeptsiknakis2021,
+  abbr        = {Journal},
+  title       = {Deep Learning for Diabetic Retinopathy Detection and Classification Based on Fundus Images: A Review},
+  journal     = {Computers in Biology and Medicine},
+  publisher   = {Elsevier},
+  pages       = {104599},
+  year        = {2021},
+  issn        = {0010-4825},
+  doi         = {https://doi.org/10.1016/j.compbiomed.2021.104599},
+  simple_doi  = {10.1016/j.compbiomed.2021.104599},
+  url         = {https://www.sciencedirect.com/science/article/pii/S0010482521003930},
+  author      = {Nikos Tsiknakis and Dimitris Theodoropoulos and Georgios Manikis and Emmanouil Ktistakis and Ourania Boutsora and Alexa Berto and Fabio Scarpa and Alberto Scarpa and Dimitrios I. Fotiadis and Kostas Marias},
+  keywords    = {artificial intelligence, classification, deep learning, detection, diabetic retinopathy, fundus, retina, review, segmentation},
+  abstract    = {Diabetic Retinopathy is a retina disease caused by diabetes mellitus and it is the leading cause of blindness globally. Early detection and treatment are necessary in order to delay or avoid vision deterioration and vision loss. To that end, many artificial-intelligence-powered methods have been proposed by the research community for the detection and classification of diabetic retinopathy on fundus retina images. This review article provides a thorough analysis of the use of deep learning methods at the various steps of the diabetic retinopathy detection pipeline based on fundus images. We discuss several aspects of that pipeline, ranging from the datasets that are widely used by the research community, the preprocessing techniques employed and how these accelerate and improve the models' performance, to the development of such deep learning models for the diagnosis and grading of the disease as well as the localization of the disease's lesions. We also discuss certain models that have been applied in real clinical settings. Finally, we conclude with some important insights and provide future research directions.},
+  selected    = {true},
+  bibtex_show = {true}
+}
+
+
+@article{app11146657,
+  abbr           = {Journal},
+  author         = {Tsiknakis, Nikos and Savvidaki, Elisavet and Kafetzopoulos, Sotiris and Manikis, Georgios and Vidakis, Nikolas and Marias, Kostas and Alissandrakis, Eleftherios},
+  title          = {Segmenting 20 Types of Pollen Grains for the Cretan Pollen Dataset v1 (CPD-1)},
+  journal        = {Applied Sciences},
+  publisher      = {MDPI},
+  volume         = {11},
+  year           = {2021},
+  number         = {14},
+  article-number = {6657},
+  url            = {https://www.mdpi.com/2076-3417/11/14/6657},
+  issn           = {2076-3417},
+  abstract       = {Pollen analysis and the classification of several pollen species is an important task in melissopalynology. The development of machine learning or deep learning based classification models depends on available datasets of pollen grains from various plant species from around the globe. In this paper, Cretan Pollen Dataset v1 (CPD-1) is presented, which is a novel dataset of grains from 20 pollen species from plants gathered in Crete, Greece. The pollen grains were prepared and stained with fuchsin, in order to be captured by a camera attached to a microscope under a ×400 magnification. In addition, a pollen grain segmentation method is presented, which segments and crops each unique pollen grain and achieved an overall detection accuracy of 92%. The final dataset comprises 4034 segmented pollen grains of 20 different pollen species, as well as the raw data and ground truth, as annotated by an expert. The developed dataset is publicly accessible, which we hope will accelerate research in melissopalynology.},
+  simple_doi     = {10.3390/app11146657},
+  doi            = {https://doi.org/10.3390/app11146657},
+  keywords       = {dataset, honey, melissopalinology, pollen grain, segmentation},
+  selected       = {false},
+  bibtex_show    = {true}
+}
+
+
+@article{diagnostics11081513,
+  abbr           = {Journal},
+  author         = {Tsiknakis, Nikos and Spanakis, Constantinos and Tsompou, Panagiota and Karanasiou, Georgia and Karanasiou, Gianna and Sakellarios, Antonis and Rigas, George and Kyriakidis, Savvas and Papafaklis, Michael and Nikopoulos, Sotirios and Gijsen, Frank and Michalis, Lampros and Fotiadis, Dimitrios I. and Marias, Kostas},
+  title          = {IVUS Longitudinal and Axial Registration for Atherosclerosis Progression Evaluation},
+  journal        = {Diagnostics},
+  volume         = {11},
+  year           = {2021},
+  number         = {8},
+  article-number = {1513},
+  url            = {https://www.mdpi.com/2075-4418/11/8/1513},
+  pubmedid       = {34441447},
+  issn           = {2075-4418},
+  doi            = {https://doi.org/10.3390/diagnostics11081513},
+  simple_doi     = {10.3390/diagnostics11081513},
+  keywords       = {atherosclerosis, IVUS, stent, longitudinal registration, axial registration, image registration, 3D registration, ultrasound},
+  selected       = {false},
+  bibtex_show    = {true}
+}
+
+@article{tsiknakis2022pollen,
+  title={Pollen grain classification based on ensemble transfer learning on the Cretan Pollen Dataset},
+  author={Tsiknakis, Nikos and Savvidaki, Elisavet and Manikis, Georgios C and Gotsiou, Panagiota and Remoundou, Ilektra and Marias, Kostas and Alissandrakis, Eleftherios and Vidakis, Nikolas},
+  journal={Plants},
+  volume={11},
+  number={7},
+  pages={919},
+  year={2022},
+  publisher={MDPI},
+  doi={https://doi.org/10.3390/plants11070919},
+  simple_doi={10.3390/plants11070919},
+  keywords={pollen, classification, transfer learning, deep learning, dataset},
+  selected={false},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+  url={https://www.mdpi.com/2076-3417/11/14/6657},
+  abbr={Journal}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
+@article{tzoras2022dissecting,
+  title={Dissecting tumor-immune microenvironment in breast cancer at a spatial and multiplex resolution},
+  author={Tzoras, Evangelos and Zerdes, Ioannis and Tsiknakis, Nikos and Manikis, Georgios C and Mezheyeuski, Artur and Bergh, Jonas and Matikas, Alexios and Foukakis, Theodoros},
+  journal={Cancers},
+  volume={14},
   number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
+  pages={1999},
+  year={2022},
+  publisher={MDPI},
+  doi={https://doi.org/10.3390/cancers14081999},
+  simple_doi={10.3390/cancers14081999},
+  keywords={breast cancer, tumor-immune microenvironment, spatial resolution, multiplex resolution, immunotherapy},
+  selected={false},
   bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+  url={https://www.mdpi.com/2072-6694/14/8/1999},
+  abbr={Journal}
 }
 
-@book{przibram1967letters,
+@article{tsiknakis2023oct,
+  title={OCT sequence registration before and after percutaneous coronary intervention (stent implantation)},
+  author={Tsiknakis, Nikos and Spanakis, Constantinos and Tsoumpou, Panagiota and Karanasiou, Georgia and Karanasiou, Gianna and Sakellarios, Antonis and Rigas, George and Kyriakidis, Savvas and Papafaklis, Michail I and Nikopoulos, Sotirios and Gijsen, Frank and Michalis, Lampros and Fotiadis, Dimitrios I and Marias, Kostas},
+  journal={Biomedical Signal Processing and Control},
+  volume={79},
+  pages={104251},
+  year={2023},
+  publisher={Elsevier},
+  doi={https://doi.org/10.1016/j.bspc.2022.104251},
+  simple_doi={10.1016/j.bspc.2022.104251},
+  keywords={OCT, stent, registration, coronary intervention, 3D registration},
+  selected={false},
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+  url={https://www.sciencedirect.com/science/article/pii/S1746809422007054},
+  abbr={Journal}
+}
+
+@article{zaridis2023region,
+  title={Region-adaptive magnetic resonance image enhancement for improving CNN-based segmentation of the prostate and prostatic zones},
+  author={Zaridis, Dimitrios and Mylona, Eugenia and Tachos, Nikolaos and Pezoulas, Vasileios C and Grigoriadis, Grigorios and Tsiknakis, Nikos and Marias, Kostas and Tsiknakis, Manolis and Fotiadis, Dimitrios I},
+  journal={Scientific Reports},
+  volume={13},
+  number={1},
+  pages={714},
+  year={2023},
+  publisher={Nature Publishing Group UK London},
+  doi={https://doi.org/10.1038/s41598-023-27671-8},
+  simple_doi={10.1038/s41598-023-27671-8},
+  keywords={MRI, prostate, segmentation, CNN, region-adaptive enhancement},
+  selected={false},
+  bibtex_show={true},
+  url={https://www.nature.com/articles/s41598-023-27671-8},
+  abbr={Journal}
+}
+
+@inproceedings{tsiknakis2023multiresolution,
+  title={Multiresolution self-supervised feature integration via attention multiple instance learning for histopathology analysis},
+  author={Tsiknakis, Nikos and Tzoras, Evangelos and Zerdes, Ioannis and Manikis, Georgios C and Acs, Balazs and Hartman, Johan and Hatschek, Thomas and Foukakis, Theodoros and Marias, Kostas},
+  booktitle={2023 45th Annual International Conference of the IEEE Engineering in Medicine \& Biology Society (EMBC)},
+  pages={1--4},
+  year={2023},
+  organization={IEEE},
+  doi={https://doi.org/10.1109/EMBC40787.2023.10341061},
+  simple_doi={10.1109/EMBC40787.2023.10341061},
+  keywords={histopathology, attention, multiple instance learning, self-supervised learning, multiresolution analysis},
+  selected={false},
+  bibtex_show={true},
+  url={https://doi.org/10.1109/EMBC40787.2023.10341061},
+  abbr={Conference}
+}
+
+@incollection{stamoulou2023using,
+  title={Using Commercial and Open-Source Tools for Artificial Intelligence: A Case Demonstration on a Complete Radiomics Pipeline},
+  author={Stamoulou, Elisavet and Spanakis, Constantinos and Nikiforaki, Katerina and Karantanas, Apostolos H and Tsiknakis, Nikos and Matikas, Alexios and Foukakis, Theodoros and Manikis, Georgios C},
+  booktitle={Introduction to Artificial Intelligence},
+  pages={13--37},
+  year={2023},
+  publisher={Springer},
+  doi={https://doi.org/10.1007/978-3-031-25928-9_2},
+  simple_doi={10.1007/978-3-031-25928-9_2},
+  keywords={artificial intelligence, radiomics, pipeline, commercial tools, open-source tools},
+  selected={false},
+  bibtex_show={true},
+  url={https://doi.org/10.1007/978-3-031-25928-9_2},
+  abbr={Chapter}
+}
+
+@article{berto2024automated,
+  title={Automated analysis of fundus images for the diagnosis of retinal diseases: a review},
+  author={Berto, Alexa and Scarpa, Fabio and Tsiknakis, Nikos and Manikis, Georgios and Fotiadis, Dimitrios I and Marias, Kostas and Scarpa, Alberto},
+  journal={Research on Biomedical Engineering},
+  volume={40},
+  number={1},
+  pages={225--251},
+  year={2024},
+  publisher={Springer},
+  doi={https://doi.org/10.1007/s42600-023-00320-9},
+  simple_doi={10.1007/s42600-023-00320-9},
+  keywords={fundus, retinal diseases, automated analysis, review},
+  selected={false},
+  bibtex_show={true},
+  url={https://doi.org/10.1007/s42600-023-00320-9},
+  abbr={Journal}
+}
+
+@abstract{foukakis2024multiomic,
+  title={Multiomic profiling reveals predictive molecular characteristics of response to neoadjuvant antibody-drug conjugate versus chemotherapy and dual HER2 blockade in HER2 positive breast cancer},
+  author={Foukakis, T and Wang, K and Zerdes, I and Zhu, Y and Sifakis, E and Tsiknakis, Nikos and Manikis, G and Salgkamis, D and Harbers, L and Bergh, J and Johansson, H and Crosetto, N and Lehtiö, J and Matikas, A and Hatschek, T},
+  journal={European Journal of Cancer},
+  volume={200},
+  year={2024},
+  publisher={Elsevier},
+  doi={https://doi.org/10.1016/j.ejca.2024.113830},
+  simple_doi={10.1016/j.ejca.2024.113830},
+  keywords={breast cancer, multiomic profiling, response, neoadjuvant therapy, HER2 positive},
+  selected={false},
+  bibtex_show={true},
+  url={https://doi.org/10.1016/j.ejca.2024.113830},
+  abbr={Abstract}
+}
+
+@abstract{kjallquist2024137p,
+  title={Adherence to and optimization of guidelines for risk of recurrence/Prosigna testing using a machine learning model: A Swedish multicenter study},
+  author={Kj{\"a}llquist, U and Tsiknakis, Nikos and Acs, B and Margolin, S and Ekholm, M and Kessler, L Edman and Lundgren, C and Garcia, SG and Olsson, EJ and Lindman, H and Valachis, A and Hartman, J and Foukakis, T and Matikas, A},
+  journal={ESMO Open},
+  volume={9},
+  year={2024},
+  publisher={Elsevier},
+  doi={https://doi.org/10.1016/j.esmoop.2024.103124},
+  simple_doi={10.1016/j.esmoop.2024.103124},
+  keywords={risk of recurrence, Prosigna testing, machine learning, Swedish multicenter study},
+  selected={false},
+  bibtex_show={true},
+  url={https://doi.org/10.1016/j.esmoop.2024.103124},
+  abbr={Abstract}
+}
+
+@abstract{tsiknakis202469p,
+  title={Deep learning prognostication through prediction of TP53 gene mutation status on breast cancer hematoxylin and eosin slides},
+  author={Tsiknakis, Nikos and Salgkamis, D and Tzoras, E and Wang, K and Liu, X and Manikis, G and Sifakis, EG and Bergh, J and Marias, K and Zerdes, I and Matikas, A and Foukakis, T},
+  journal={ESMO Open},
+  volume={9},
+  year={2024},
+  publisher={Elsevier},
+  doi={https://doi.org/10.1016/j.esmoop.2024.103075},
+  simple_doi={10.1016/j.esmoop.2024.103075},
+  keywords={breast cancer, TP53 gene mutation, hematoxylin and eosin slides, deep learning, prognostication},
+  selected={false},
+  bibtex_show={true},
+  url={https://doi.org/10.1016/j.esmoop.2024.103075},
+  abbr={Abstract}
+}
+
+@abstract{wang2024abstract,
+  title={Multimodal learning predictor of HER2-positive breast cancer therapy response in the randomized PREDIX HER2 trial},
+  author={Wang, Kang and Zhu, Yajing and Zerdes, Ioannis and Sifakis, Emmanouil and Manikis, Georgios and Salgkamis, Dimitrios and Tsiknakis, Nikos and Harbers, Luuk and Crosetto, Nicola and Bergh, Jonas and Matikas, Alexios and Hatschek, Thomas and Foukakis, Theodoros},
+  journal={Cancer Research},
+  volume={84},
+  number={9\_Supplement},
+  pages={PO2--07},
+  year={2024},
+  publisher={AACR},
+  doi={http://doi.org/10.1158/1538-7445.SABCS23-PO2-07-06},
+  simple_doi={10.1158/1538-7445.SABCS23-PO2-07-06},
+  keywords={breast cancer, HER2-positive, therapy response, multimodal learning, PREDIX HER2 trial},
+  selected={false},
+  bibtex_show={true},
+  url={https://doi.org/10.1158/1538-7445.SABCS23-PO2-07-06},
+  abbr={Abstract}
+}
+
+@abstract{matikas2024estimating,
+  title={Estimating benefit from dose dense adjuvant chemotherapy for early breast cancer in the PANTHER randomized phase 3 trial.},
+  author={Matikas, Alexios and Gnant, Michael and Johansson, Hemming and Untch, Michael and Tsiknakis, Nikos and Greil, Richard and Loibl, Sibylle and Foukakis, Theodoros and Bergh, Jonas CS},
+  year={2024},
+  publisher={American Society of Clinical Oncology},
+  doi={https://doi.org/10.1200/JCO.2024.42.16_suppl.521},
+  simple_doi={10.1200/JCO.2024.42.16_suppl.521},
+  keywords={breast cancer, dose dense adjuvant chemotherapy, PANTHER trial, randomized phase 3 trial},
+  selected={false},
+  bibtex_show={true},
+  url={https://doi.org/10.1200/JCO.2024.42.16_suppl.521},
+  abbr={Abstract}
+}
+
+@article{kjallquist2024adherence,
+  title={Adherence to and optimization of guidelines for Risk of Recurrence/Prosigna testing using a machine learning model: a Swedish multicenter study},
+  author={Kj{\"a}llquist, Una and Tsiknakis, Nikos and Acs, Balazs and Margolin, Sara and Kessler, Luisa Edman and Levy, Scarlett and Ekholm, Maria and Lundgren, Christine and Olsson, Erik and Lindman, Henrik and Valachis, Antonios and Hartman, Johan and Foukakis, Theodoros and Matikas, Alexios},
+  year={2024},
+  doi={https://doi.org/10.21203/rs.3.rs-4110196/v1},
+  simple_doi={10.21203/rs.3.rs-4110196/v1},
+  keywords={risk of recurrence, Prosigna testing, machine learning, Swedish multicenter study},
+  selected={false},
+  bibtex_show={true},
+  url={https://doi.org/10.21203/rs.3.rs-4110196/v1},
+  abbr={Journal}
+}
+
+@article{zaridis2024prolesa,
+  title={ProLesA-Net: A multi-channel 3D architecture for prostate MRI lesion segmentation with multi-scale channel and spatial attentions},
+  author={Zaridis, Dimitrios and Mylona, Eugenia and Tsiknakis, Nikos and Tachos, Nikolaos S and Matsopoulos, George K and Marias, Kostas and Tsiknakis, Manolis and Fotiadis, Dimitrios I},
+  journal={Patterns},
+  year={2024},
+  publisher={Elsevier},
+  doi={https://doi.org/10.1016/j.patter.2024.100992},
+  simple_doi={10.1016/j.patter.2024.100992},
+  keywords={prostate MRI, lesion segmentation, multi-channel 3D architecture, multi-scale channel and spatial attentions},
+  selected={false},
+  bibtex_show={true},
+  url={https://doi.org/10.1016/j.patter.2024.100992},
+  abbr={Journal}
+}
+
+@article{tsiknakis2024unveiling,
+  title={Unveiling the Power of Model-Agnostic Multiscale Analysis for Enhancing Artificial Intelligence Models in Breast Cancer Histopathology Images},
+  author={Tsiknakis, Nikos and Manikis, Georgios and Tzoras, Evangelos and Salgkamis, Dimitrios and Vidal, Joan Martinez and Wang, Kang and Zaridis, Dimitris and Sifakis, Emmanouil and Zerdes, Ioannis and Bergh, Jonas and Hartman, Johan and Acs, Balazs and Marias, Kostas and Foukakis, Theodoros},
+  journal={IEEE Journal of Biomedical and Health Informatics},
+  year={2024},
+  publisher={IEEE},
+  doi={https://doi.org/10.1109/JBHI.2024.3413533},
+  simple_doi={10.1109/JBHI.2024.3413533},
+  keywords={breast cancer, histopathology, artificial intelligence, multiscale analysis, model-agnostic},
+  selected={true},
+  bibtex_show={true},
+  url={https://doi.org/10.1109/JBHI.2024.3413533},
+  abbr={Journal}
+}
+
+@article{scarpa2024automated,
+  title={Automated analysis for glaucoma screening of retinal videos acquired with smartphone-based ophthalmoscope},
+  author={Scarpa, Fabio and Berto, Alexa and Tsiknakis, Nikos and Manikis, Georgios and Fotiadis, Dimitrios I and Marias, Kostas and Scarpa, Alberto},
+  journal={Heliyon},
+  volume={10},
+  number={14},
+  year={2024},
+  publisher={Elsevier},
+  doi={https://doi.org/10.1016/j.heliyon.2024.e34308},
+  simple_doi={10.1016/j.heliyon.2024.e34308},
+  keywords={glaucoma, retinal videos, smartphone-based ophthalmoscope, automated analysis, artificial intelligence},
+  selected={false},
+  bibtex_show={true},
+  url={https://doi.org/10.1016/j.heliyon.2024.e34308},
+  abbr={Journal}
+}
+
+@article{vidal2024analytical,
+  title={The analytical and clinical validity of AI algorithms to score TILs in TNBC: can we use different machine learning models interchangeably?},
+  author={Vidal, Joan Mart{\'\i}nez and Tsiknakis, Nikos and Staaf, Johan and Bosch, Ana and Ehinger, Anna and Nimeus, Emma and Salgado, Roberto and Bai, Yalai and Rimm, David L and Hartman, Johan and others},
+  journal={eClinicalMedicine},
+  volume={78},
+  year={2024},
+  publisher={Elsevier},
+  doi={https://doi.org/10.1016/j.eclinm.2024.102928},
+  simple_doi={10.1016/j.eclinm.2024.102928},
+  keywords={TNBC, TILs, machine learning, AI, eClinicalMedicine},
+  selected={true},
+  bibtex_show={true},
+  url={https://doi.org/10.1016/j.eclinm.2024.102928},
+  abbr={Journal}
+}
+
+@inproceedings{tsiknakis2024ensuring,
+  title={Ensuring Model Fairness via Stratified Training: TP53 Mutation Prediction with Estrogen Receptor Stratification in Breast Histopathology},
+  author={Tsiknakis, Nikos and Wang, Kang and Salgkamis, Dimitrios and Tzoras, Evangelos and Manikis, Georgios C and Sifakis, Emmanouil and Bergh, Jonas and Zerdes, Ioannis and Marias, Kostas and Matikas, Alexios and others},
+  booktitle={2024 46th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)},
+  pages={1--5},
+  year={2024},
+  organization={IEEE},
+  doi={https://doi.org/10.1109/EMBC53108.2024.10782012},
+  simple_doi={10.1109/EMBC53108.2024.10782012},
+  keywords={breast cancer, histopathology, TP53 mutation, estrogen receptor, model fairness, stratified training},
+  selected={false},
+  bibtex_show={true},
+  url={https://doi.org/10.1109/EMBC53108.2024.10782012},
+  abbr={Conference}
+}
+
+@abstract{panagiotopoulos2024evaluation,
+  title={Evaluation of Salivary Gland Focus Score in Sjogren's Disease Using Deep Learning: A Step Towards Tissue Biomarker Discovery},
+  author={Panagiotopoulos, Konstantinos and Tsiknakis, Nikos and Zaridis, Dimitrios and Tzioufas, Athanasios and Fotiadis, Dimitrios I and Goules, Andreas},
+  booktitle={ARTHRITIS \& RHEUMATOLOGY},
+  volume={76},
+  pages={2888--2889},
+  year={2024},
+  organization={WILEY 111 RIVER ST, HOBOKEN 07030-5774, NJ USA},
+  keywords={salivary gland focus score, Sjogren's disease, deep learning, tissue biomarker discovery},
+  selected={true},
+  bibtex_show={true},
+  abbr={Abstract}
+}
+
+@article{matikas2025benefit,
+  title={Benefit from dose-dense adjuvant chemotherapy for breast cancer: subgroup analyses from the randomised phase 3 PANTHER trial},
+  author={Matikas, Alexios and Papakonstantinou, Andri and Loibl, Sibylle and Steger, G{\"u}nther G and Untch, Michael and Johansson, Hemming and Tsiknakis, Nikos and Hellstr{\"o}m, Mats and Greil, Richard and M{\"o}bus, Volker and others},
+  journal={The Lancet Regional Health--Europe},
+  volume={49},
+  year={2025},
+  publisher={Elsevier},
+  doi={https://doi.org/10.1016/j.lanepe.2024.101162},
+  simple_doi={10.1016/j.lanepe.2024.101162},
+  keywords={breast cancer, dose-dense adjuvant chemotherapy, PANTHER trial, randomised phase 3 trial},
+  selected={false},
+  bibtex_show={true},
+  url={https://doi.org/10.1016/j.lanepe.2024.101162},
+  abbr={Journal}
+}
+
+@article{zaridis2025simplatab,
+  title={Simplatab: An Automated Machine Learning Framework for Radiomics-Based Bi-Parametric MRI Detection of Clinically Significant Prostate Cancer},
+  author={Zaridis, Dimitrios and Pezoulas, Vasileios C and Mylona, Eugenia and Kalantzopoulos, Charalampos N and Tachos, Nikolaos S and Tsiknakis, Nikos and Matsopoulos, George K and Regge, Daniele and Papanikolaou, Nikolaos and Tsiknakis, Manolis and others},
+  journal={Bioengineering},
+  volume={12},
+  number={3},
+  pages={242},
+  year={2025},
+  publisher={MDPI},
+  doi={https://doi.org/10.3390/bioengineering12030242},
+  simple_doi={10.3390/bioengineering12030242},
+  keywords={prostate cancer, radiomics, machine learning, automated framework},
+  selected={false},
+  bibtex_show={true},
+  url={https://doi.org/10.3390/bioengineering12030242},
+  abbr={Journal}
+}
+
+@article{panagiotopoulos2025evaluation,
+  title={Evaluation of minor labial salivary gland focus score in Sj{\"o}gren's disease using deep learning: a tool for more efficient diagnosis and future tissue biomarker discovery},
+  author={Panagiotopoulos, Konstantinos N and Tsiknakis, Nikos and Zaridis, Dimitrios and Mavragani, Clio P and Tzioufas, Athanasios G and Fotiadis, Dimitrios I and Goules, Andreas V},
+  journal={Journal of Autoimmunity},
+  volume={153},
+  pages={103418},
+  year={2025},
+  publisher={Elsevier},
+  doi={https://doi.org/10.1016/j.jaut.2025.103418},
+  simple_doi={10.1016/j.jaut.2025.103418},
+  keywords={Sj{\"o}gren's disease, salivary gland focus score, deep learning, automated framework},
+  selected={false},
+  bibtex_show={true},
+  url={https://doi.org/10.1016/j.jaut.2025.103418},
+  abbr={Journal}
 }
