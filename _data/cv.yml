@@ -21,6 +21,7 @@
       year: 2014-2019
       description:
         - "Grade: 8.3/10"
+        - Thesis on Stereo Vision of Dual View Meteosat Images under the supervision of <a href="https://www.ece.upatras.gr/skodras/">Prof. Athanassios Skodras</a> in collaboration with Vrije Universiteit Brussel (VUB) and the Royal Meteorological Institute of Brussels (KMI).
 
 - title: Experience
   type: time_table
@@ -29,12 +30,12 @@
       institution: Computational BioMedicine Laboratory, Institute for Computer Science, Foundation for Research and Technology - Hellas, Heraklion, Greece
       year: 2019-2022
       description:
-        - H2020 funded project InSilc in which my main responsibilities relate to the design and implementation of algorithmic approaches for the registration of intravascular ultrasound (IVUS) and optical coherence tomography (OCT) image sequences captured prior to and after percutaneous coronary intervention (stent implantation).
-        - H2020 funded project SeeFar, in which my main responsibilities relate to the development and evaluation of deep learning models for the detection and the progression of retina diseases based on retina fundus images.
-        - H2020 funded project Timely, in which my main responsibilities relate to the development of an Android application for fitness and activity data collection and the development of reinforcement learning models for exercise prescription of CAD patients.
-        - H2020 funded project ProCAncer-I, working on prostate cancer and specifically on prostate zones segmentation with advanced convolutional neural network models on radiology images.
-        - Research on COVID-19 detection based on deep learning analysis methods of Xray and CT images. I developed a transfer-learning model for the classification of COVID-19 pneumonia, pneumonia (caused by other factors than covid) and healthy subjects. The analysis was coupled with interpertable attention maps which were evaluated by expert radiologists.
-        -  Research on pollen grain identification on microscope images. Specifically I developed a segmentation pipeline based on watershed algorithm to extract unique pollen grain images from microscope slides, based on which I trained several deep learning models for the identification of their species.
+        - H2020 funded project InSilc (registration of IVUS and OCT image sequences captured prior to and after stent implantation).
+        - H2020 funded project SeeFar (detection and the progression of retina diseases based on retina fundus images).
+        - H2020 funded project Timely (development of an Android application for fitness and activitydata collection).
+        - H2020 funded project ProCAncer-I (prostate zones segmentation with CNN models on radiology images).
+        - COVID-19 detection based on deep learning analysis methods of Xray and CT images.
+        - Pollen grain identification on microscope images.
     - title: Intern
       institution: Computational BioMedicine Laboratory, Institute for Computer Science, Foundation for Research and Technology - Hellas, Heraklion, Greece
       year: 2019-2022
