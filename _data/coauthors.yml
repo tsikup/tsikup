@@ -9,17 +9,6 @@
 "manikis":
   - firstname: ["Georgios", "G."]
     url: https://scholar.google.com/citations?user=pWVLcIwAAAAJ&hl=en
-
-"tsiknakis":
-  - firstname: ["Nikos", "N."]
-    url: https://scholar.google.com/citations?user=vWYykXgAAAAJ&hl=en
-
-"zaridis":
-  - firstname: ["Dimitris", "D."]
-    url: https://scholar.google.com/citations?user=7VENtGcAAAAJ
-
-  - firstname: ["Dimitrios", "D."]
-    url: https://scholar.google.com/citations?user=7VENtGcAAAAJ
   
 "acs":
   - firstname: ["Balazs", "B."]
